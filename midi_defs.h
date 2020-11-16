@@ -4,6 +4,10 @@
 #define maj_triad(root) { root, 4 + root, 3 + 4 + root }
 #define min_triad(root) { root, 3 + root, 4 + 3 + root }
 #define dim_triad(root) { root, 3 + root, 3 + 3 + root }
+#define maj_7(root) { root, 4 + root, 4 + 7 + root }
+#define min_7(root) { root, 3 + root, 3 + 7 + root }
+#define dom_7(root) { root, 4 + root, 3 + 7 + root }
+#define dim_7(root) { root, 3 + root, 3 + 6 + root }
 
 struct MidiDefs {
   static const int MIDI_HIGH = 127;
